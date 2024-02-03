@@ -1,0 +1,7 @@
+{
+  "name": "assignment-tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

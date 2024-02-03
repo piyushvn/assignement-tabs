@@ -1,0 +1,13 @@
+.tab-container {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #fff;
+}
+
+.tab-container .tab-button {
+    background-color: #fff;
+}
+
+.tab-selected {
+    color: #2A9F78;
+}

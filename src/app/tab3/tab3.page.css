@@ -1,0 +1,212 @@
+.bontex-container {
+    --background: #001126;
+    /* --padding-start: 15px;
+
+    --padding-end: 15px; */
+    --padding-top: 15px;
+}
+
+ion-toolbar {
+    --padding-end: 20px;
+}
+
+
+
+ion-title {
+    padding-inline: 23px;
+    position: relative;
+    height: 10vh;
+    text-align: left;
+}
+
+.user-name {
+    font-size: 1.2rem;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.primary {
+    --background: #001126;
+}
+
+.points {
+    font-size: 1rem;
+    color: #18A187;
+    position: relative;
+    height: 10vh;
+    font-weight: bold;
+}
+
+.profile-pic {
+
+    --padding-end: 15px;
+
+}
+
+.bg-ellipse-1 {
+    position: absolute;
+    left: -6vh;
+    top: -12vh;
+    z-index: 2;
+}
+
+.bg-ellipse-2 {
+    position: absolute;
+    right: -6vh;
+    top: -12vh;
+    z-index: 2;
+}
+
+.container {
+    --padding-start: 15px;
+    --padding-end: 15px;
+    /* padding: 23px; */
+}
+
+.bg-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    position: relative;
+    z-index: 3;
+}
+
+.bg-images .big-image {
+    position: relative;
+}
+
+.bg-images .big-image img {
+    width: 22vh;
+    height: 22vh;
+}
+
+.arrow-img {
+    position: absolute;
+    right: -1vh;
+    bottom: -8vh;
+    z-index: 4;
+    width: 2vh;
+
+}
+
+.activity {
+    padding-top: 4vh;
+}
+
+.activity ion-col {
+
+    margin: 1vh;
+}
+
+.content {
+    position: relative;
+    z-index: 4;
+}
+
+.activity-title {
+    color: #B4C1D4;
+    font-size: 0.8rem;
+}
+
+.activity-txt {
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0.2vh;
+    font-weight: bold;
+}
+
+ion-col {
+    background-color: #1E273C;
+    text-align: center;
+    height: 10vh;
+    padding: 2vh;
+    border-radius: 1vh;
+}
+
+.info-txt {
+    color: #B4C1D4;
+    text-align: center;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.swiper-card {
+    margin: 0;
+    margin-top: 4vh;
+    position: relative;
+    z-index: 5;
+    border-radius: 0;
+    height: 31vh;
+    transform: translate(0, 1vh);
+}
+
+.swiper-card ion-card-title {
+    color: #171923;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.swiper-card ion-card-content {
+    padding: 0;
+}
+
+.card,
+.swiper {
+    height: 100vh;
+
+
+}
+
+.card-item {
+    width: 100%;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.card-item-bg {
+    width: 100%;
+    height: auto;
+}
+
+.card-item-img {
+    position: absolute;
+    top: 0;
+    transform: translate(20%, -45%);
+    left: 0;
+    width: 70%;
+}
+
+.card-item-img img {
+    width: 70vh;
+}
+
+.card-item-bg img {
+    width: 100%;
+    height: auto;
+}
+
+.card-item ion-text {
+    color: #fff;
+    position: absolute;
+    bottom: 2vh;
+    left: 0;
+    padding: 0px 1.5vh;
+    font-size: 0.75rem;
+    line-height: 0.85rem;
+}
+
+.swiper {
+    /* overflow: visible; */
+}
+
+.swiper-card-content {
+    height: 30vh;
+}

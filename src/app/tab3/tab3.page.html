@@ -1,0 +1,116 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar class="primary">
+    <ion-title>
+      <ion-text class="user-name">Good morning, <span>Mohammed</span></ion-text>
+      <p><ion-text class="points"><strong>23.12 Bond points</strong></ion-text></p>
+    </ion-title>
+    <ion-avatar class="profile-pic" slot="end">
+      <img src="assets/images/avatar.png" />
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bontex-container" [fullscreen]="true">
+
+  <div class="container">
+    <div class="bg-images">
+      <span class="big-image">
+        <img src="./assets/images/boosting-Indicator.svg" />
+        <span class="arrow-img"><img src="./assets/images/arrow.svg" /></span>
+      </span>
+      <span class="bg-ellipse-1">
+        <img src="./assets/images/ellipse-1.svg" />
+      </span>
+      <span class="bg-ellipse-2">
+        <img src="./assets/images/ellipse-2.svg" />
+      </span>
+
+    </div>
+
+    <div class="content">
+
+
+
+      <ion-grid class="activity">
+        <ion-row>
+          <ion-col>
+            <ion-text class="activity-title">Activity rate <span><img src="./assets/images/icon-info.svg"
+                  width="10vh"></span></ion-text>
+            <ion-text class="activity-txt">0.75 points/hr</ion-text>
+
+          </ion-col>
+          <ion-col>
+            <ion-text class="activity-title">Your network <span><img src="./assets/images/icon-info.svg"
+                  width="10vh"></span></ion-text>
+            <ion-text class="activity-txt">10 active </ion-text>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+
+      <ion-text class="info-txt">Tap to boost your Bond points</ion-text>
+
+
+    </div>
+  </div>
+
+  <ion-card class="swiper-card">
+    <ion-card-header>
+      <ion-card-title>Do more with Bondex</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="swiper-card-content">
+      <ion-row class="card">
+        <swiper [slidesPerView]="3" [spaceBetween]="5">
+          <ng-template swiperSlide>
+            <div class="card-item">
+              <span class="card-item-bg"><img src="./assets/images/item-bg.svg"></span>
+
+              <span class="card-item-img"><img src="./assets/images/icon-b.svg"></span>
+              <ion-text>Learn about Bond points</ion-text>
+            </div>
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="card-item">
+              <span class="card-item-bg"><img src="./assets/images/item-bg.svg"></span>
+
+              <span class="card-item-img"><img src="./assets/images/icon-boy.svg"></span>
+              <ion-text>Increase your Activity rate tip #1</ion-text>
+            </div>
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="card-item">
+              <span class="card-item-bg"><img src="./assets/images/item-bg.svg"></span>
+
+              <span class="card-item-img"><img src="./assets/images/icon-world.svg"></span>
+              <ion-text>Increase your Activity rate tip #2</ion-text>
+            </div>
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="card-item">
+              <span class="card-item-bg"><img src="./assets/images/item-bg.svg"></span>
+
+              <span class="card-item-img"><img src="./assets/images/icon-b.svg"></span>
+              <ion-text>Learn about Bond points</ion-text>
+            </div>
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="card-item">
+              <span class="card-item-bg"><img src="./assets/images/item-bg.svg"></span>
+
+              <span class="card-item-img"><img src="./assets/images/icon-boy.svg"></span>
+              <ion-text>Increase your Activity rate tip #1</ion-text>
+            </div>
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="card-item">
+              <span class="card-item-bg"><img src="./assets/images/item-bg.svg"></span>
+
+              <span class="card-item-img"><img src="./assets/images/icon-world.svg"></span>
+              <ion-text>Increase your Activity rate tip #2</ion-text>
+            </div>
+          </ng-template>
+        </swiper>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
